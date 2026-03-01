@@ -11,6 +11,8 @@
 *This project aims to address fundamental issues in global supply and demand pipelines, which significantly impact macroeconomics and daily life.*  
 *It utilizes Machine Learning methodologies to analyze key influencing factors like stockouts, shipping times, and evolving customer needs to improve operational flow and profitability.*
 
+* Link to Jupyter Notebook: [link](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Sylvester-Capstone-V1.ipynb)
+
 ## Executive Summary 
 
 Global supply chain management is the heart of the modern world. It impacts every household every day in multiple ways. Retail, commercial, medical, manufacturing, industry and all other business organizations directly contribute to macro economics which has both financial, economic and lifestyle impact to every corner of the world. Supply, demand, shipping times, predictable delivery, on time commitment, evolving customer needs, stockouts, over stocking, perishable products, seasonal products etc are some key factors which strongly influence the global supply chain. A majority of these factors have a  strong correlation and determine the flow and profitability of the operations. Using Machine learning methodologies, this project is a small effort to solve basic issues that impact today's supply and demand pipelines. The modern world fundamentally relies on global supply chain management, which affects every household daily across various sectors, including retail, commerce, medicine, manufacturing, and industry. These sectors collectively shape macroeconomics, influencing the financial, economic, and lifestyle aspects of the world. The flow and profitability of these operations are heavily influenced and correlated by key factors such as supply, demand, shipping times, predictable delivery, on-time commitment, evolving customer needs, stockouts, overstocking, and the handling of perishable and seasonal products. This project seeks to address fundamental issues within today's supply and demand pipelines through the application of Machine Learning methodologies.
@@ -180,8 +182,9 @@ Next steps
 
 This section is currently work in progress
 
-Outline for project   
-*Link to notebook* 
+## Outline for project   
+
+* Link to Jupyter Notebook: [link](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Sylvester-Capstone-V1.ipynb)
 
 ### 
 
