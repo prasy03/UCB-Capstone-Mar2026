@@ -1,8 +1,8 @@
-# **Project Title**
+## **Project Title**
 
-**Machine Learning for Supply Chain Optimization: Predictive Demand, Risk Classification, and Inventory Strategy**
+## **Machine Learning for Supply Chain Optimization: Predictive Demand, Risk Classification, and Inventory Strategy**
 
-## Author: Sylvester Prasanna 
+### Author: Sylvester Prasanna 
 
 Date: Mar 22, 2026 (revised, including Time Series model in a separate Jupyter notebook)
 
