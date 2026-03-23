@@ -2,9 +2,9 @@
 
 **Machine Learning for Supply Chain Optimization: Predictive Demand, Risk Classification, and Inventory Strategy**
 
-## Author Sylvester Prasanna 
+## Author: Sylvester Prasanna 
 
-Date: Mar 15, 2026
+Date: Mar 22, 2026 (revised, including Time Series model in a separate Jupyter notebook)
 
 ---
 
@@ -177,21 +177,40 @@ The project provides actionable insights for supply chain managers:
 
 ## Results
 
-## *What did your research find ?* 
+The research successfully developed and evaluated Machine Learning models to optimize supply chain operations, yielding four core findings:
 
-This section is currently work in progress
+1. **Demand Forecasting:** A Linear Regression model achieved a high $R^{2}$ score of $0.9635$, accurately explaining $96.35%$ of total sales variance, enabling reliable revenue prediction.  
+2. **Risk Analysis (Delay Prediction):** Logistic Regression proved the best classifier ($69.49%$ accuracy) for predicting the $54.6%$ of shipments flagged with a `Late_delivery_risk`.  
+3. **Market Segmentation:** K-Means Clustering grouped markets into three strategic tiers: High Volume (e.g., Europe & LATAM), High Profit (e.g., Pacific Asia), and Moderate Performance.  
+4. **Inventory Strategy:** Frequency analysis identified specific top-selling products (e.g., Perfect Fitness Perfect Rip Deck) for strategic stocking to prevent stockouts.  
+5. **Time Series Model:** The analysis successfully transitioned from static supply chain records to a dynamic forecasting model. The Stationarity Test (ADF) confirmed that while sales are volatile, they can be modeled after differencing. The Auto-ARIMA model outperformed the baseline by identifying a specific weekly seasonality that was not immediately apparent in the raw data.
 
-Next steps  
-*What suggestions do you have for your next steps ?* 
 
-This section is currently work in progress
+### Next steps  
 
-Outline for project   
-*Link to notebook* 
+* The model is highly sensitive to the 12-month window. While it captures monthly fluctuations well, its ability to predict long-term annual cycles is limited by the dataset's duration.  
+* he data being synthetic behaves ideal for model conditions. Real world data may be different in its samples (like zero sales, promotion events, external influences, supply chain, data leakage etc).  
+* The actionable recommendation is to focus operational expansion in High-Volume regions and invest in premium logistics for High-Profit regions.  
+* **Feature Engineering:** Include external factors such as promotion periods or global shipping disruptions as external factors /  variables (SARIMAX).  
+* **Advanced Models:**  Models like LSTM to better handle non-linear trends and complex seasonality.
 
-### 
+### Outline for project   
 
-### Acknowledgments / Credits 
+The chosen dataset was selected after an extensive search across various platforms, including Kaggle, UC Irvine, datacatalog, and opendatabay.
+
+1. Original source: DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS (year of publication: 2019\) source [link](https://data.mendeley.com/datasets/8gx2fvg2k6/5)  
+   1. This dataset consists of 52 features (columns) and over 182K samples (rows). 
+
+To maintain statistical accuracy and facilitate quicker model training with reduced complexity, the dataset was streamlined. This lean version focuses solely on 12 months of transaction data and is designed to meet the following core criteria:
+
+1. **Operational supply chain data**: purchase orders, promised vs actual delivery dates, supplier lead times, shipment tracking data, and inventory levels.  
+2. **Demand signals**: historical demand, forecast inputs, seasonality patterns,    
+3. **External factors**: Shipping, source and destination region    
+4. **Engineered features**.
+
+------
+
+## Acknowledgments / Credits 
 
 **Data Provenance & Ethical AI Disclosure**
 
