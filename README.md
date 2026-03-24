@@ -221,3 +221,9 @@ To maintain statistical accuracy and facilitate quicker model training with redu
    * Structuring the **Data Pipeline** logic to ensure prevention of temporal data leakage.  
    3. **Human-in-the-Loop:** All final model selections, hyperparameter tuning, and business interpretations were performed and validated by the primary researcher to ensure domain-specific accuracy.
 
+--------
+![image]("images/confusion_matrix_final.png")
+--------
+
+
+
