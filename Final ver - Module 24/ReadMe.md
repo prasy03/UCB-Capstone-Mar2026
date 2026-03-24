@@ -175,8 +175,29 @@ The project provides actionable insights for supply chain managers:
   * **Pacific Asia:** High profit margins suggest this region is ideal for premium shipping services to maintain customer loyalty.  
 * **Operational Planning:** Sales forecasting allows the finance department to predict monthly revenue with high confidence based on incoming order quantities and product mixes.
 
-1. Image: [Logistic Regression - Confussion Matrix](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/confusion_matrix_logreg.png)
+1. Image1: Logistic Regression : Confussion Matrix
+![Logistic Regression - Confussion Matrix](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/confusion_matrix_logreg.png)
 
+2. Image2: Optiman No of Clusters using Elbow method.
+![Optimal Number of clusters](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Optimal%20Number%20of%20Clusters%20-%20Elbow%20method.png)
+
+3. Image3: Time Series : Baseline Model BEFORE hyperparameter tuning.
+![TimeSeries-Baseline-beforeTuning](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Baseline%20ModelComparison%20-%20before%20tuning%20.png)
+
+4. Image4: Time Series : Baseline Model AFTERE hyperparameter tuning.
+![TimeSeries-Enhanced-afterTuning](tbd)
+
+5. Image5: Precision Recall Curve
+![Precision-Recall-Curve](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Precision-Recall_curve.png)
+
+6. Image6: Grid Search CV
+![Grid Search CV](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/grid_search_penalth.png)
+
+7. Image7: Model Performance Comparision
+![Model-Performance-Compare](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Model_performance_compare.png)
+
+8. Image8: ROC Curve
+![ROC Curve](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/roc_curve_final%20copy.png)
 
 ## Results
 
