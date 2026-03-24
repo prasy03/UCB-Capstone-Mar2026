@@ -4,7 +4,7 @@
 
 ## Author: Sylvester Prasanna 
 
-Date: Mar 22, 2026 (revised, including Time Series model in a separate Jupyter notebook)
+Date: Mar 23, 2026 (revised, including Time Series model in a separate Jupyter notebook)
 
 ---
 
@@ -174,6 +174,9 @@ The project provides actionable insights for supply chain managers:
 * **Regional Strategy:** \* **Europe & LATAM:** Focus on expanding local fulfillment centers to handle high volume and reduce the 54% late delivery risk.  
   * **Pacific Asia:** High profit margins suggest this region is ideal for premium shipping services to maintain customer loyalty.  
 * **Operational Planning:** Sales forecasting allows the finance department to predict monthly revenue with high confidence based on incoming order quantities and product mixes.
+
+1. Image: [Logistic Regression - Confussion Matrix](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/confusion_matrix_logreg.png)
+
 
 ## Results
 
