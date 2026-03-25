@@ -140,7 +140,8 @@ I have saved the result to df\_cleaned.csv. Let me know when you are ready for t
 
 Data was refined to ensure model readiness:
 
-* **Cleaning:** Dropped irrelevant or empty features (Customer Email, Product Image, etc.).  
+* **Cleaning:** Dropped irrelevant or empty features (Customer Email, Product Image, etc.).
+* **Missing data** Identify and clean up missing data (eg: "?", "—", "N/A", "null", "")
 * **Feature Engineering:** Converted date strings into temporal features such as order\_month and order\_day\_of\_week to capture seasonality.  
 * **One-Hot Encoding:** Categorical variables like Market, Shipping Mode, and Segment were encoded into numerical formats for algorithmic processing.  
 * **Visual Analysis:** \* **Market Analysis:** Identified **LATAM** and **Europe** as the dominant markets by total sales.  
