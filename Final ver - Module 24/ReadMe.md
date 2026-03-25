@@ -184,24 +184,18 @@ The project provides actionable insights for supply chain managers:
 3. Image3: Time Series : Baseline Model BEFORE hyperparameter tuning.
 ![TimeSeries-Baseline-beforeTuning](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Baseline%20ModelComparison%20-%20before%20tuning%20.png)
 
-4. Image4: Time Series : Baseline Model AFTERE hyperparameter tuning.
-   
-![TimeSeries-Enhanced-afterTuning](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Model-enhanced-with-hypertuning.png))
 
-
-5. Image5: Precision Recall Curve
+5. Image4: Precision Recall Curve
 ![Precision-Recall-Curve](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Precision-Recall_curve.png)
 
-6. Image6: Grid Search CV
+5. Image5: Grid Search CV
 ![Grid Search CV](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/grid_search_penalth.png)
 
-7. Image7: ROC Curve
+6. Image6: ROC Curve
    
 ![ROC Curve](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/roc_curve_final%20copy.png)
 
-8. Image8: Model Performance Comparision
-   
-![Model-Performance-Compare](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Model_performance_compare.png)
+
 
 
 ## Results
