@@ -238,11 +238,11 @@ To maintain statistical accuracy and facilitate quicker model training with redu
 **Data Provenance & Ethical AI Disclosure**
 
 1. **Source Dataset:** The core empirical analysis was conducted using the DataCo Smart Supply Chain Dataset, a filtered 12-month longitudinal transaction log (Source: Constante et al., Mendeley Data).  
-   2. **Computational Assistance:** LLMs like Gemini and ChatGPT were utilized as a High-Level Architectural Advisor. Specifically, the LLM assisted in:  
+2. **Computational Assistance:** LLMs like Gemini and ChatGPT were utilized as a High-Level Architectural Advisor. Specifically, the LLM assisted in:  
    * Defining the **dual-track model architecture** (Classification/Regression).  
    * Synthesizing **Feature Engineering strategies** for high-cardinality categorical variables.  
    * Structuring the **Data Pipeline** logic to ensure prevention of temporal data leakage.  
-   3. **Human-in-the-Loop:** All final model selections, hyperparameter tuning, and business interpretations were performed and validated by the primary researcher to ensure domain-specific accuracy.
+3. **Human-in-the-Loop:** All final model selections, hyperparameter tuning, and business interpretations were performed and validated by the primary researcher to ensure domain-specific accuracy.
 
 
 
