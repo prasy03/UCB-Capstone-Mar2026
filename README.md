@@ -212,7 +212,7 @@ The research successfully developed and evaluated Machine Learning models to opt
 ### Next steps  
 
 * The model is highly sensitive to the 12-month window. While it captures monthly fluctuations well, its ability to predict long-term annual cycles is limited by the dataset's duration.  
-* he data being synthetic behaves ideal for model conditions. Real world data may be different in its samples (like zero sales, promotion events, external influences, supply chain, data leakage etc).  
+* The data being synthetic behaves ideal for model conditions. Real world data may be different in its samples (like zero sales, promotion events, external influences, supply chain, data leakage etc).  
 * The actionable recommendation is to focus operational expansion in High-Volume regions and invest in premium logistics for High-Profit regions.  
 * **Feature Engineering:** Include external factors such as promotion periods or global shipping disruptions as external factors /  variables (SARIMAX).  
 * **Advanced Models:**  Models like LSTM to better handle non-linear trends and complex seasonality.
