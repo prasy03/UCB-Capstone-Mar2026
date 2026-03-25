@@ -1,10 +1,10 @@
-## **Project Title**
+# **Project Title**
 
-## **Machine Learning for Supply Chain Optimization: Predictive Demand, Risk Classification, and Inventory Strategy**
+**Machine Learning for Supply Chain Optimization: Predictive Demand, Risk Classification, and Inventory Strategy**
 
-### Author: Sylvester Prasanna 
+## Author: Sylvester Prasanna 
 
-Date: Mar 22, 2026 (revised, including Time Series model in a separate Jupyter notebook)
+Date: Mar 23, 2026 (revised, including Time Series model in a separate Jupyter notebook)
 
 ---
 
@@ -175,6 +175,29 @@ The project provides actionable insights for supply chain managers:
   * **Pacific Asia:** High profit margins suggest this region is ideal for premium shipping services to maintain customer loyalty.  
 * **Operational Planning:** Sales forecasting allows the finance department to predict monthly revenue with high confidence based on incoming order quantities and product mixes.
 
+1. Image1: Logistic Regression : Confussion Matrix
+![Logistic Regression - Confussion Matrix](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/confusion_matrix_logreg.png)
+
+2. Image2: Optiman No of Clusters using Elbow method.
+![Optimal Number of clusters](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Optimal%20Number%20of%20Clusters%20-%20Elbow%20method.png)
+
+3. Image3: Time Series : Baseline Model BEFORE hyperparameter tuning.
+![TimeSeries-Baseline-beforeTuning](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Baseline%20ModelComparison%20-%20before%20tuning%20.png)
+
+
+5. Image4: Precision Recall Curve
+![Precision-Recall-Curve](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Precision-Recall_curve.png)
+
+5. Image5: Grid Search CV
+![Grid Search CV](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/grid_search_penalth.png)
+
+6. Image6: ROC Curve
+   
+![ROC Curve](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/roc_curve_final%20copy.png)
+
+
+
+
 ## Results
 
 The research successfully developed and evaluated Machine Learning models to optimize supply chain operations, yielding four core findings:
@@ -221,9 +244,6 @@ To maintain statistical accuracy and facilitate quicker model training with redu
    * Structuring the **Data Pipeline** logic to ensure prevention of temporal data leakage.  
    3. **Human-in-the-Loop:** All final model selections, hyperparameter tuning, and business interpretations were performed and validated by the primary researcher to ensure domain-specific accuracy.
 
---------
-![image]("images/confusion_matrix_final.png")
---------
 
 
 
