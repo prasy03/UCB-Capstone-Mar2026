@@ -140,7 +140,8 @@ I have saved the result to df\_cleaned.csv. Let me know when you are ready for t
 
 Data was refined to ensure model readiness:
 
-* **Cleaning:** Dropped irrelevant or empty features (Customer Email, Product Image, etc.).  
+* **Cleaning:** Dropped irrelevant or empty features (Customer Email, Product Image, etc.).
+* **Missing data** Identify and clean up missing data (eg: "?", "—", "N/A", "null", "")
 * **Feature Engineering:** Converted date strings into temporal features such as order\_month and order\_day\_of\_week to capture seasonality.  
 * **One-Hot Encoding:** Categorical variables like Market, Shipping Mode, and Segment were encoded into numerical formats for algorithmic processing.  
 * **Visual Analysis:** \* **Market Analysis:** Identified **LATAM** and **Europe** as the dominant markets by total sales.  
@@ -184,24 +185,18 @@ The project provides actionable insights for supply chain managers:
 3. Image3: Time Series : Baseline Model BEFORE hyperparameter tuning.
 ![TimeSeries-Baseline-beforeTuning](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Baseline%20ModelComparison%20-%20before%20tuning%20.png)
 
-4. Image4: Time Series : Baseline Model AFTERE hyperparameter tuning.
-   
-![TimeSeries-Enhanced-afterTuning](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Model-enhanced-with-hypertuning.png))
 
-
-5. Image5: Precision Recall Curve
+5. Image4: Precision Recall Curve
 ![Precision-Recall-Curve](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Precision-Recall_curve.png)
 
-6. Image6: Grid Search CV
+5. Image5: Grid Search CV
 ![Grid Search CV](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/grid_search_penalth.png)
 
-7. Image7: ROC Curve
+6. Image6: ROC Curve
    
 ![ROC Curve](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/roc_curve_final%20copy.png)
 
-8. Image8: Model Performance Comparision
-   
-![Model-Performance-Compare](https://github.com/prasy03/UCB-Capstone-Mar2026/blob/main/Final%20ver%20-%20Module%2024/images/Model_performance_compare.png)
+
 
 
 ## Results
@@ -218,7 +213,7 @@ The research successfully developed and evaluated Machine Learning models to opt
 ### Next steps  
 
 * The model is highly sensitive to the 12-month window. While it captures monthly fluctuations well, its ability to predict long-term annual cycles is limited by the dataset's duration.  
-* he data being synthetic behaves ideal for model conditions. Real world data may be different in its samples (like zero sales, promotion events, external influences, supply chain, data leakage etc).  
+* The data being synthetic behaves ideal for model conditions. Real world data may be different in its samples (like zero sales, promotion events, external influences, supply chain, data leakage etc).  
 * The actionable recommendation is to focus operational expansion in High-Volume regions and invest in premium logistics for High-Profit regions.  
 * **Feature Engineering:** Include external factors such as promotion periods or global shipping disruptions as external factors /  variables (SARIMAX).  
 * **Advanced Models:**  Models like LSTM to better handle non-linear trends and complex seasonality.
@@ -244,11 +239,11 @@ To maintain statistical accuracy and facilitate quicker model training with redu
 **Data Provenance & Ethical AI Disclosure**
 
 1. **Source Dataset:** The core empirical analysis was conducted using the DataCo Smart Supply Chain Dataset, a filtered 12-month longitudinal transaction log (Source: Constante et al., Mendeley Data).  
-   2. **Computational Assistance:** LLMs like Gemini and ChatGPT were utilized as a High-Level Architectural Advisor. Specifically, the LLM assisted in:  
+2. **Computational Assistance:** LLMs like Gemini and ChatGPT were utilized as a High-Level Architectural Advisor. Specifically, the LLM assisted in:  
    * Defining the **dual-track model architecture** (Classification/Regression).  
    * Synthesizing **Feature Engineering strategies** for high-cardinality categorical variables.  
    * Structuring the **Data Pipeline** logic to ensure prevention of temporal data leakage.  
-   3. **Human-in-the-Loop:** All final model selections, hyperparameter tuning, and business interpretations were performed and validated by the primary researcher to ensure domain-specific accuracy.
+3. **Human-in-the-Loop:** All final model selections, hyperparameter tuning, and business interpretations were performed and validated by the primary researcher to ensure domain-specific accuracy.
 
 
 
